@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:openDrawer="left">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:title="MAP"/>
+        <item
+            android:id="@+id/nav_history"
+            android:title="HISTORY"/>
+
+    </group>
+
+    <item android:title="Species">
+        <menu>
+            <item android:id="@+id/nav_kwanzan"
+                android:title="Kwanzan"/>
+            <item android:id="@+id/nav_akebono"
+                android:title="Akebono"/>
+            <item android:id="@+id/nav_ukon"
+                android:title="Ukon"/>
+        </menu>
+    </item>
+
+</menu>
